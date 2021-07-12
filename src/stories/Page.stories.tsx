@@ -7,6 +7,12 @@ import * as HeaderStories from './Header.stories';
 export default {
   title: 'Example/Page',
   component: Page,
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/CW07BYUsT6nRIpM8ltlGzH/Notas?node-id=1595%3A5744'
+    }
+  }
 } as ComponentMeta<typeof Page>;
 
 const Template: ComponentStory<typeof Page> = (args) => <Page {...args} />;
